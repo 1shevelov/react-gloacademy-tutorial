@@ -30,3 +30,24 @@
     transform: rotate(360deg);
   }
 }
+
+.Countries {
+  margin: 2em 20%;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.Countries h1:hover, b:hover {
+  text-shadow: 0.05em 0.1em 2px rgba(0, 0, 0, 0.5);
+}
+
+.RF {
+  border: 1px solid rgb(215, 210, 210);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 30%, rgba(0, 0, 255, 0.7) 36% 63%, rgba(255, 0, 0, 0.8) 69%);
+}
+
+.KG {
+  border: 1px solid transparent;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg) center no-repeat rgba(255, 0, 0, 0.7);
+  background-size: cover;
+}
