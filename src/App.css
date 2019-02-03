@@ -1,8 +1,12 @@
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  width: 100%;
 }
 
-.App-logo {
+
+/* Styles from create-react-app */
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
@@ -29,9 +33,11 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-.Countries {
+ /* My first experiments */
+
+/* .Countries {
   margin: 2em 20%;
   padding: 0 20px;
   border-radius: 5px;
@@ -50,4 +56,4 @@
   border: 1px solid transparent;
   background: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg) center no-repeat rgba(255, 0, 0, 0.7);
   background-size: cover;
-}
+} */
